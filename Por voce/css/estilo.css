@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    margin-top: 10px;
+    height: 80px;
+    background-color: red;
+    border-radius: 35%;
+}
+
+.cabecalho ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    height: 80px;
+}
+
+.cabecalho ul li {
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.cabecalho ul li:hover {
+    color: rgb(210, 210, 204);
+    cursor: pointer;
+}
+
+.desculpas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desculpas img{
+    width: 80%;
+    height: 600px;
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+.desculpas p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.euteamo img {
+    height: 800px;
+}
